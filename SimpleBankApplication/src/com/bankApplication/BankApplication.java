@@ -30,6 +30,8 @@ public class BankApplication {
 		accounts.get(6).deposit(-28); // Expected Result-> Can not deposit negative amount
 		// Try to withdraw negative amount
 		accounts.get(6).withdraw(-42); // Expected Result-> Can not withdraw negative amount
+		// Withdraw $1 from customer3
+		accounts.get(3).withdraw(1);
 
 	}
 }
